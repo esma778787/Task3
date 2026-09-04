@@ -1,0 +1,2114 @@
+[
+  {
+    "id": "eng_a2_001",
+    "type": "notice_meaning",
+    "level": "A2",
+    "skill": "use_of_english",
+    "title": "Park Notice",
+    "instruction": "Choose the best meaning.",
+    "passageId": null,
+    "question": "The sign says: \"Keep off the grass.\" What should visitors do?",
+    "options": [
+      {
+        "text": "Stay on the path"
+      },
+      {
+        "text": "Pick flowers"
+      },
+      {
+        "text": "Play on the grass"
+      },
+      {
+        "text": "Feed the ducks"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Visitors should stay off the grass and use the path.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_002",
+    "type": "notice_meaning",
+    "level": "A2",
+    "skill": "communication",
+    "title": "Travel Update",
+    "instruction": "Choose the main message.",
+    "passageId": null,
+    "question": "The schedule note reads: \"Lift closed today between 10 am and 2 pm.\" What does it mean?",
+    "options": [
+      {
+        "text": "Use the stairs at those times"
+      },
+      {
+        "text": "The lift is open after 2 pm"
+      },
+      {
+        "text": "The lift is free today"
+      },
+      {
+        "text": "The lift is moving slowly"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The note warns that the lift is closed during that period.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_003",
+    "type": "notice_meaning",
+    "level": "A2",
+    "skill": "communication",
+    "title": "Accommodation Rule",
+    "instruction": "Choose the correct action.",
+    "passageId": null,
+    "question": "The notice says: \"Please remove your shoes before entering the lounge.\" What should guests do?",
+    "options": [
+      {
+        "text": "Take off shoes first"
+      },
+      {
+        "text": "Bring food into the lounge"
+      },
+      {
+        "text": "Sit quietly on the floor"
+      },
+      {
+        "text": "Leave the lounge before noon"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Guests should remove shoes before entering.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_004",
+    "type": "multiple_choice_cloze",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Present Simple",
+    "instruction": "Choose the correct word.",
+    "passageId": null,
+    "question": "She ____ to the bus stop every morning.",
+    "options": [
+      {
+        "text": "walk"
+      },
+      {
+        "text": "walks"
+      },
+      {
+        "text": "walking"
+      },
+      {
+        "text": "walked"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "We use walks for she/he/it in the present simple.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_005",
+    "type": "vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Everyday Choice",
+    "instruction": "Choose the best word.",
+    "passageId": null,
+    "question": "I need a ____ for my homework.",
+    "options": [
+      {
+        "text": "notebook"
+      },
+      {
+        "text": "wallet"
+      },
+      {
+        "text": "umbrella"
+      },
+      {
+        "text": "sandwich"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Notebook is correct for homework writing.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_006",
+    "type": "open_cloze",
+    "level": "A2",
+    "skill": "use_of_english",
+    "title": "Preposition",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "I will meet you ____ the café at five.",
+    "acceptedAnswers": [
+      "at"
+    ],
+    "explanation": "Use at with a place and time.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_007",
+    "type": "word_formation",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Word Building",
+    "instruction": "Use the correct form of the word HAPPY.",
+    "passageId": null,
+    "question": "The child felt very ____.",
+    "acceptedAnswers": [
+      "happy"
+    ],
+    "explanation": "The adjective form fits the sentence.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_008",
+    "type": "sentence_transformation",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"because\".",
+    "passageId": null,
+    "question": "I stayed inside because it was raining.",
+    "acceptedAnswers": [
+      "I stayed inside because it was raining."
+    ],
+    "sentence": "I stayed inside. It was raining.",
+    "keyword": "because",
+    "explanation": "The sentence keeps the same meaning using because.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_009",
+    "type": "reading_comprehension",
+    "level": "A2",
+    "skill": "reading",
+    "title": "Short Passage",
+    "instruction": "Choose the correct detail.",
+    "passageId": "a2_park_notice",
+    "question": "How should visitors behave in the park?",
+    "options": [
+      {
+        "text": "Bring bicycles to ride"
+      },
+      {
+        "text": "Keep the paths clear"
+      },
+      {
+        "text": "Play loud music"
+      },
+      {
+        "text": "Feed the ducks"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "The passage asks visitors to keep paths clear.",
+    "acceptedAnswers": [],
+    "weight": 1,
+    "passage": "Welcome to Greenway Park. Please keep the paths clear for cyclists and walkers. Dogs must remain on a short lead. Barbecues are allowed only in the designated area near the lake. Loud music is not permitted after 8 pm. Thank you for helping us keep the park clean and safe for everyone."
+  },
+  {
+    "id": "eng_a2_010",
+    "type": "multiple_choice_cloze",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Simple Past",
+    "instruction": "Choose the correct form.",
+    "passageId": null,
+    "question": "Yesterday I ____ a letter to my friend.",
+    "options": [
+      {
+        "text": "write"
+      },
+      {
+        "text": "wrote"
+      },
+      {
+        "text": "written"
+      },
+      {
+        "text": "writes"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Wrote is the past simple form.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_011",
+    "type": "vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Time Words",
+    "instruction": "Choose the word that fits.",
+    "passageId": null,
+    "question": "I am busy now, but I will help you ____.",
+    "options": [
+      {
+        "text": "tomorrow"
+      },
+      {
+        "text": "yesterday"
+      },
+      {
+        "text": "always"
+      },
+      {
+        "text": "never"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Tomorrow refers to a later time.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_012",
+    "type": "open_cloze",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Article",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "She has ____ orange backpack.",
+    "acceptedAnswers": [
+      "an"
+    ],
+    "explanation": "Use an before a vowel sound.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_013",
+    "type": "word_formation",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Word Form",
+    "instruction": "Use the correct form of the word FRIEND.",
+    "passageId": null,
+    "question": "He is a good ____.",
+    "acceptedAnswers": [
+      "friend"
+    ],
+    "explanation": "The noun form friend is correct.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_014",
+    "type": "sentence_transformation",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"too\".",
+    "passageId": null,
+    "question": "It was too warm, and I felt tired.",
+    "acceptedAnswers": [
+      "It was too warm, and I felt tired."
+    ],
+    "sentence": "It was very warm, and I felt tired.",
+    "keyword": "too",
+    "explanation": "The sentence uses too to show excess.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_015",
+    "type": "multiple_choice_cloze",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Past Simple",
+    "instruction": "Choose the correct answer.",
+    "passageId": null,
+    "question": "Last week we ____ at the beach.",
+    "options": [
+      {
+        "text": "are"
+      },
+      {
+        "text": "were"
+      },
+      {
+        "text": "is"
+      },
+      {
+        "text": "was"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Were is used with we in past simple.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_016",
+    "type": "vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Common Object",
+    "instruction": "Choose the best answer.",
+    "passageId": null,
+    "question": "Please hand me the ____.",
+    "options": [
+      {
+        "text": "bag"
+      },
+      {
+        "text": "moon"
+      },
+      {
+        "text": "ocean"
+      },
+      {
+        "text": "forest"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Bag is the only object you can hand over.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_017",
+    "type": "open_cloze",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Pronoun",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "This is Mark and ____ sister.",
+    "acceptedAnswers": [
+      "his"
+    ],
+    "explanation": "His refers to Mark.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_018",
+    "type": "word_formation",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word CLEAN.",
+    "passageId": null,
+    "question": "The room looks ____.",
+    "acceptedAnswers": [
+      "clean"
+    ],
+    "explanation": "Clean is the adjective form.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_019",
+    "type": "sentence_transformation",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"before\".",
+    "passageId": null,
+    "question": "I watched a movie after I finished dinner.",
+    "acceptedAnswers": [
+      "I watched a movie after I finished dinner."
+    ],
+    "sentence": "I finished dinner. I watched a movie.",
+    "keyword": "before",
+    "explanation": "The sentence changes order using before/after.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_020",
+    "type": "vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Everyday Verb",
+    "instruction": "Choose the correct word.",
+    "passageId": null,
+    "question": "She ____ water every day.",
+    "options": [
+      {
+        "text": "drink"
+      },
+      {
+        "text": "drinks"
+      },
+      {
+        "text": "drinking"
+      },
+      {
+        "text": "drank"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Drinks is correct for she in present simple.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_021",
+    "type": "multiple_choice_cloze",
+    "level": "A2",
+    "skill": "use_of_english",
+    "title": "Simple Question",
+    "instruction": "Choose the correct question.",
+    "passageId": null,
+    "question": "____ you like tea?",
+    "options": [
+      {
+        "text": "Do"
+      },
+      {
+        "text": "Does"
+      },
+      {
+        "text": "Did"
+      },
+      {
+        "text": "Are"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Do is used with you in present simple.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_022",
+    "type": "notice_meaning",
+    "level": "A2",
+    "skill": "communication",
+    "title": "Room Notice",
+    "instruction": "Choose the right action.",
+    "passageId": null,
+    "question": "The sign says: \"Quiet please: study area.\" What should people do?",
+    "options": [
+      {
+        "text": "Speak softly"
+      },
+      {
+        "text": "Run inside"
+      },
+      {
+        "text": "Leave chairs outside"
+      },
+      {
+        "text": "Eat snacks loudly"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The notice asks for quiet in the study area.",
+    "acceptedAnswers": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_023",
+    "type": "open_cloze",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Conjunction",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "I want to play, ____ I have homework.",
+    "acceptedAnswers": [
+      "but"
+    ],
+    "explanation": "But shows contrast.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_a2_024",
+    "type": "word_formation",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Word Form",
+    "instruction": "Use the correct form of the word HELP.",
+    "passageId": null,
+    "question": "She gave me some ____.",
+    "acceptedAnswers": [
+      "help"
+    ],
+    "explanation": "Help is a noun here.",
+    "options": [],
+    "weight": 1
+  },
+  {
+    "id": "eng_b1_001",
+    "type": "notice_meaning",
+    "level": "B1",
+    "skill": "communication",
+    "title": "Event Notice",
+    "instruction": "Choose the main message.",
+    "passageId": null,
+    "question": "The note says: \"Please arrive at the meeting room by 9:15 so we can start on time.\" What should attendees do?",
+    "options": [
+      {
+        "text": "Come early enough to be ready"
+      },
+      {
+        "text": "Bring snacks for everyone"
+      },
+      {
+        "text": "Leave before 9:15"
+      },
+      {
+        "text": "Wear a green shirt"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Attendees should arrive by 9:15 to begin on time.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_002",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Present Perfect",
+    "instruction": "Choose the best answer.",
+    "passageId": null,
+    "question": "I ____ this book three times already.",
+    "options": [
+      {
+        "text": "read"
+      },
+      {
+        "text": "have read"
+      },
+      {
+        "text": "was reading"
+      },
+      {
+        "text": "will read"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Present perfect uses have/has + past participle.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_003",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Modal Verbs",
+    "instruction": "Choose the best answer.",
+    "passageId": null,
+    "question": "You ____ take your umbrella; it might rain later.",
+    "options": [
+      {
+        "text": "must"
+      },
+      {
+        "text": "should"
+      },
+      {
+        "text": "can"
+      },
+      {
+        "text": "will"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Should suggests advice about rain.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_004",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "use_of_english",
+    "title": "Conditionals",
+    "instruction": "Choose the correct sentence.",
+    "passageId": null,
+    "question": "If I ____ more time, I would join the class.",
+    "options": [
+      {
+        "text": "have"
+      },
+      {
+        "text": "had"
+      },
+      {
+        "text": "will have"
+      },
+      {
+        "text": "would have"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Second conditional uses had.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_005",
+    "type": "vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Collocation",
+    "instruction": "Choose the best phrase.",
+    "passageId": null,
+    "question": "The team made a ____ decision before the event.",
+    "options": [
+      {
+        "text": "fast"
+      },
+      {
+        "text": "quick"
+      },
+      {
+        "text": "swift"
+      },
+      {
+        "text": "speedy"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Quick collocates naturally with decision.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_006",
+    "type": "open_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Prepositions",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "She has been working here ____ January.",
+    "acceptedAnswers": [
+      "since"
+    ],
+    "explanation": "Since introduces the starting point.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_007",
+    "type": "word_formation",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word ENJOY.",
+    "passageId": null,
+    "question": "They had great ____.",
+    "acceptedAnswers": [
+      "enjoyment"
+    ],
+    "explanation": "Enjoyment is the noun form.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_008",
+    "type": "sentence_transformation",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"although\".",
+    "passageId": null,
+    "question": "Although it was cold, we still enjoyed the trip.",
+    "acceptedAnswers": [
+      "Although it was cold, we still enjoyed the trip."
+    ],
+    "sentence": "It was cold. We still enjoyed the trip.",
+    "keyword": "although",
+    "explanation": "The sentence keeps the same meaning with although.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_009",
+    "type": "reading_comprehension",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Volunteer Summary",
+    "instruction": "Choose the main idea.",
+    "passageId": "b1_volunteer_event",
+    "question": "What is the passage mainly about?",
+    "options": [
+      {
+        "text": "How volunteers prepared the community centre"
+      },
+      {
+        "text": "The exact number of people who painted"
+      },
+      {
+        "text": "The weather during the event"
+      },
+      {
+        "text": "The snacks served after work"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The passage focuses on volunteer preparation and teamwork.",
+    "acceptedAnswers": [],
+    "weight": 2,
+    "passage": "Last Saturday, a group of volunteers helped repaint the community centre. Each team worked on a different room, and everyone received a short training session before starting. The coordinator thanked the volunteers for arriving on time and reminded them to wear protective gloves. After the work, the team shared snacks and talked about ideas for the next event."
+  },
+  {
+    "id": "eng_b1_010",
+    "type": "reading_comprehension",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Volunteer Detail",
+    "instruction": "Choose the correct detail.",
+    "passageId": "b1_volunteer_event",
+    "question": "What did the coordinator remind the volunteers to do?",
+    "options": [
+      {
+        "text": "Bring snacks"
+      },
+      {
+        "text": "Wear protective gloves"
+      },
+      {
+        "text": "Paint only the ceiling"
+      },
+      {
+        "text": "Invite a guest speaker"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "The coordinator reminded them to wear gloves.",
+    "acceptedAnswers": [],
+    "weight": 2,
+    "passage": "Last Saturday, a group of volunteers helped repaint the community centre. Each team worked on a different room, and everyone received a short training session before starting. The coordinator thanked the volunteers for arriving on time and reminded them to wear protective gloves. After the work, the team shared snacks and talked about ideas for the next event."
+  },
+  {
+    "id": "eng_b1_011",
+    "type": "vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Phrasal Verb",
+    "instruction": "Choose the correct phrasal verb.",
+    "passageId": null,
+    "question": "Please ____ the lights when you leave the room.",
+    "options": [
+      {
+        "text": "turn on"
+      },
+      {
+        "text": "turn off"
+      },
+      {
+        "text": "look after"
+      },
+      {
+        "text": "give up"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Turn off matches leaving the room.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_012",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Relative Clauses",
+    "instruction": "Choose the correct answer.",
+    "passageId": null,
+    "question": "The student ____ spoke to me is from Spain.",
+    "options": [
+      {
+        "text": "which"
+      },
+      {
+        "text": "who"
+      },
+      {
+        "text": "where"
+      },
+      {
+        "text": "whose"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Who is used for people.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_013",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Past Simple vs Present Perfect",
+    "instruction": "Choose the correct sentence.",
+    "passageId": null,
+    "question": "I ____ to that museum before.",
+    "options": [
+      {
+        "text": "have been"
+      },
+      {
+        "text": "went"
+      },
+      {
+        "text": "go"
+      },
+      {
+        "text": "will go"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Present perfect indicates experience.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_014",
+    "type": "open_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Conjunctions",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "He did his homework ____ he watched a video.",
+    "acceptedAnswers": [
+      "before"
+    ],
+    "explanation": "Before shows the order of actions.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_015",
+    "type": "word_formation",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word ACTIVE.",
+    "passageId": null,
+    "question": "Her ____ helps the team move quickly.",
+    "acceptedAnswers": [
+      "activity"
+    ],
+    "explanation": "Activity is the noun form.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_016",
+    "type": "sentence_transformation",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"unless\".",
+    "passageId": null,
+    "question": "I will go unless it rains.",
+    "acceptedAnswers": [
+      "I will go unless it rains."
+    ],
+    "sentence": "I will go only if it does not rain.",
+    "keyword": "unless",
+    "explanation": "The sentence maintains meaning with unless.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_017",
+    "type": "reading_comprehension",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Guide Detail",
+    "instruction": "Choose the correct detail.",
+    "passageId": "b1_travel_guide",
+    "question": "What should you write in a notebook?",
+    "options": [
+      {
+        "text": "The names of streets"
+      },
+      {
+        "text": "Your favourite song"
+      },
+      {
+        "text": "A recipe for dinner"
+      },
+      {
+        "text": "A list of books"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Write street names.",
+    "acceptedAnswers": [],
+    "weight": 2,
+    "passage": "When visiting a new city, it is helpful to carry a small notebook. Write the names of the streets you need, and note the opening hours of places you want to see. Asking local people for directions is polite if you begin with \"Excuse me.\" You should also check the weather forecast before you leave, since rain might change your plans for an outdoor market or a walking tour."
+  },
+  {
+    "id": "eng_b1_018",
+    "type": "reading_comprehension",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Guide Inference",
+    "instruction": "Choose the best inference.",
+    "passageId": "b1_travel_guide",
+    "question": "Why is it polite to say “Excuse me”?",
+    "options": [
+      {
+        "text": "To begin a polite question"
+      },
+      {
+        "text": "To cancel plans"
+      },
+      {
+        "text": "To report a problem"
+      },
+      {
+        "text": "To buy a ticket"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "It is polite when asking for directions.",
+    "acceptedAnswers": [],
+    "weight": 2,
+    "passage": "When visiting a new city, it is helpful to carry a small notebook. Write the names of the streets you need, and note the opening hours of places you want to see. Asking local people for directions is polite if you begin with \"Excuse me.\" You should also check the weather forecast before you leave, since rain might change your plans for an outdoor market or a walking tour."
+  },
+  {
+    "id": "eng_b1_019",
+    "type": "gapped_text",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Text Cohesion",
+    "instruction": "Choose the sentence that fits the text.",
+    "passageId": "b1_travel_guide",
+    "question": "A small notebook helps you remember street names and opening hours. ____, you can ask politely if you need help.",
+    "options": [
+      {
+        "text": "Therefore"
+      },
+      {
+        "text": "While"
+      },
+      {
+        "text": "However"
+      },
+      {
+        "text": "Since"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Since explains the reason to check the weather.",
+    "acceptedAnswers": [],
+    "weight": 2,
+    "passage": "When visiting a new city, it is helpful to carry a small notebook. Write the names of the streets you need, and note the opening hours of places you want to see. Asking local people for directions is polite if you begin with \"Excuse me.\" You should also check the weather forecast before you leave, since rain might change your plans for an outdoor market or a walking tour."
+  },
+  {
+    "id": "eng_b1_020",
+    "type": "situational_communication",
+    "level": "B1",
+    "skill": "communication",
+    "title": "Practical Response",
+    "instruction": "Choose the best reply.",
+    "passageId": null,
+    "question": "A coordinator says: \"Could you confirm the arrival time?\" What is the polite answer?",
+    "options": [
+      {
+        "text": "Yes, I will arrive at 9."
+      },
+      {
+        "text": "Maybe I will come later."
+      },
+      {
+        "text": "No, I won’t tell you."
+      },
+      {
+        "text": "I do not know anything."
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The polite reply confirms the arrival time.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_021",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Modal Deduction",
+    "instruction": "Choose the correct answer.",
+    "passageId": null,
+    "question": "She is not at home, so she ____ at work.",
+    "options": [
+      {
+        "text": "must be"
+      },
+      {
+        "text": "can be"
+      },
+      {
+        "text": "might to be"
+      },
+      {
+        "text": "should has been"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Must be shows strong certainty.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_022",
+    "type": "vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Common Expression",
+    "instruction": "Choose the best meaning.",
+    "passageId": null,
+    "question": "The meeting was called off. What does this mean?",
+    "options": [
+      {
+        "text": "It was canceled"
+      },
+      {
+        "text": "It started early"
+      },
+      {
+        "text": "It changed location"
+      },
+      {
+        "text": "It became louder"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Called off means canceled.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_023",
+    "type": "open_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Auxiliary Verb",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "____ you ever been to a youth conference?",
+    "acceptedAnswers": [
+      "Have"
+    ],
+    "explanation": "Have is the auxiliary for present perfect questions.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_024",
+    "type": "word_formation",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word INVITE.",
+    "passageId": null,
+    "question": "The hosts sent an official ____.",
+    "acceptedAnswers": [
+      "invitation"
+    ],
+    "explanation": "Invitation is the noun form.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_025",
+    "type": "sentence_transformation",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"still\".",
+    "passageId": null,
+    "question": "She still has not finished.",
+    "acceptedAnswers": [
+      "She still has not finished."
+    ],
+    "sentence": "She has not finished, and she continues working.",
+    "keyword": "still",
+    "explanation": "Still keeps the same meaning.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_026",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Second Conditional",
+    "instruction": "Choose the correct form.",
+    "passageId": null,
+    "question": "If I had more money, I ____ buy the course.",
+    "options": [
+      {
+        "text": "will"
+      },
+      {
+        "text": "would"
+      },
+      {
+        "text": "can"
+      },
+      {
+        "text": "must"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Would is used in second conditionals.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_027",
+    "type": "vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Phrase Choice",
+    "instruction": "Choose the best word.",
+    "passageId": null,
+    "question": "He is good at ____ people with clear instructions.",
+    "options": [
+      {
+        "text": "explaining"
+      },
+      {
+        "text": "explain"
+      },
+      {
+        "text": "explained"
+      },
+      {
+        "text": "explains"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Explaining is the correct gerund form.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_028",
+    "type": "open_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Pronouns",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "Everyone brought ____ own passport.",
+    "acceptedAnswers": [
+      "their"
+    ],
+    "explanation": "Their is used for singular they.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_029",
+    "type": "word_formation",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word CREATE.",
+    "passageId": null,
+    "question": "The team shared their ____.",
+    "acceptedAnswers": [
+      "creations"
+    ],
+    "explanation": "Creations is the noun form.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_030",
+    "type": "sentence_transformation",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"unless\".",
+    "passageId": null,
+    "question": "I will go unless I am too tired.",
+    "acceptedAnswers": [
+      "I will go unless I am too tired."
+    ],
+    "sentence": "I will not go because I am tired.",
+    "keyword": "unless",
+    "explanation": "The sentence keeps the same meaning.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_031",
+    "type": "multiple_choice_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Future with Will",
+    "instruction": "Choose the correct option.",
+    "passageId": null,
+    "question": "I think I ____ finish the report by tomorrow.",
+    "options": [
+      {
+        "text": "will"
+      },
+      {
+        "text": "would"
+      },
+      {
+        "text": "should"
+      },
+      {
+        "text": "must"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Will is used for a simple future prediction.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_032",
+    "type": "vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Daily Routine",
+    "instruction": "Choose the correct word.",
+    "passageId": null,
+    "question": "She always ____ her teeth after breakfast.",
+    "options": [
+      {
+        "text": "brushes"
+      },
+      {
+        "text": "brushed"
+      },
+      {
+        "text": "brushing"
+      },
+      {
+        "text": "brush"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Brushes is the correct present simple form for she.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_033",
+    "type": "open_cloze",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Comparative",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "This book is ____ than the last one.",
+    "acceptedAnswers": [
+      "better"
+    ],
+    "explanation": "Better is the comparative form of good.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_034",
+    "type": "sentence_transformation",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"because\".",
+    "passageId": null,
+    "question": "She could not come to the meeting because she was ill.",
+    "acceptedAnswers": [
+      "She could not come to the meeting because she was ill."
+    ],
+    "sentence": "She was ill. She could not come to the meeting.",
+    "keyword": "because",
+    "explanation": "The sentence keeps the same meaning with because.",
+    "options": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_035",
+    "type": "reading_comprehension",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Simple Notice",
+    "instruction": "Choose the correct detail.",
+    "passageId": null,
+    "question": "A notice says: \"The library is closed on Sunday.\" What does it mean?",
+    "options": [
+      {
+        "text": "The library is not open on Sunday"
+      },
+      {
+        "text": "The library opens on Sunday"
+      },
+      {
+        "text": "Sunday is discount day"
+      },
+      {
+        "text": "The library closes early daily"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The notice means the library is closed on Sunday.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b1_036",
+    "type": "situational_communication",
+    "level": "B1",
+    "skill": "communication",
+    "title": "Polite Request",
+    "instruction": "Choose the best reply.",
+    "passageId": null,
+    "question": "Someone asks: \"Could you hand me the folder, please?\" What is the best answer?",
+    "options": [
+      {
+        "text": "Sure, here it is."
+      },
+      {
+        "text": "No, I will not."
+      },
+      {
+        "text": "Maybe later."
+      },
+      {
+        "text": "I cannot see it."
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "A polite request is answered with a helpful reply.",
+    "acceptedAnswers": [],
+    "weight": 2
+  },
+  {
+    "id": "eng_b2_001",
+    "type": "multiple_choice_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Mixed Conditionals",
+    "instruction": "Choose the correct sentence.",
+    "passageId": null,
+    "question": "If she had studied law, she ____ be a lawyer now.",
+    "options": [
+      {
+        "text": "would"
+      },
+      {
+        "text": "would have"
+      },
+      {
+        "text": "will"
+      },
+      {
+        "text": "would be"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "A mixed conditional uses would be for present result.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_002",
+    "type": "multiple_choice_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Reported Speech",
+    "instruction": "Choose the correct reported form.",
+    "passageId": null,
+    "question": "Direct: \"I am leaving now,\" she said. Reported: She said that she ____.",
+    "options": [
+      {
+        "text": "was leaving"
+      },
+      {
+        "text": "is leaving"
+      },
+      {
+        "text": "left"
+      },
+      {
+        "text": "would leave"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Was leaving is the correct past reporting form.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_003",
+    "type": "vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Collocation",
+    "instruction": "Choose the best phrase.",
+    "passageId": null,
+    "question": "The speaker gave a ____ overview of the programme.",
+    "options": [
+      {
+        "text": "clear"
+      },
+      {
+        "text": "clarified"
+      },
+      {
+        "text": "clarity"
+      },
+      {
+        "text": "clearer"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Clear overview is the natural phrase.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_004",
+    "type": "open_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Linking Words",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "They chose to postpone the activity ____ the weather forecast.",
+    "acceptedAnswers": [
+      "because of"
+    ],
+    "explanation": "Because of explains the reason.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_005",
+    "type": "word_formation",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word PARTICIPATE.",
+    "passageId": null,
+    "question": "Widespread ____. increased the project’s visibility.",
+    "acceptedAnswers": [
+      "participation"
+    ],
+    "explanation": "Participation is the noun.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_006",
+    "type": "sentence_transformation",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"unless\".",
+    "passageId": null,
+    "question": "I will send the report unless it is incomplete.",
+    "acceptedAnswers": [
+      "I will send the report unless it is incomplete."
+    ],
+    "sentence": "I will not send the report if it is incomplete.",
+    "keyword": "unless",
+    "explanation": "Maintains meaning.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_007",
+    "type": "reading_comprehension",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Program Description",
+    "instruction": "Choose the writer’s attitude.",
+    "passageId": "b2_environment_project",
+    "question": "What is the writer’s attitude toward the recycling programme?",
+    "options": [
+      {
+        "text": "Positive and hopeful"
+      },
+      {
+        "text": "Critical and angry"
+      },
+      {
+        "text": "Neutral and bored"
+      },
+      {
+        "text": "Confused and doubtful"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The writer is positive about the programme.",
+    "acceptedAnswers": [],
+    "weight": 3,
+    "passage": "A youth group decided to start a neighbourhood recycling programme. They met several times to plan the campaign, research local recycling rules and design posters. During a workshop, members discussed how to encourage households to separate paper, plastic and glass. They also invited a guest speaker to explain how recycled materials can become new products. As a result, more residents began using the bins correctly and the organisers prepared a short report for the town council."
+  },
+  {
+    "id": "eng_b2_008",
+    "type": "reading_comprehension",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Program Detail",
+    "instruction": "Choose the correct detail.",
+    "passageId": "b2_environment_project",
+    "question": "What did the youth group do during the workshop?",
+    "options": [
+      {
+        "text": "Discussed how to encourage households"
+      },
+      {
+        "text": "Painted the community centre"
+      },
+      {
+        "text": "Visited the town council"
+      },
+      {
+        "text": "Designed a new park"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "They discussed encouraging households.",
+    "acceptedAnswers": [],
+    "weight": 3,
+    "passage": "A youth group decided to start a neighbourhood recycling programme. They met several times to plan the campaign, research local recycling rules and design posters. During a workshop, members discussed how to encourage households to separate paper, plastic and glass. They also invited a guest speaker to explain how recycled materials can become new products. As a result, more residents began using the bins correctly and the organisers prepared a short report for the town council."
+  },
+  {
+    "id": "eng_b2_009",
+    "type": "gapped_text",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Text Cohesion",
+    "instruction": "Choose the sentence that completes the paragraph.",
+    "passageId": "b2_environment_project",
+    "question": "A youth group planned a campaign and designed posters. ____, more residents began using the bins correctly.",
+    "options": [
+      {
+        "text": "As a result"
+      },
+      {
+        "text": "In contrast"
+      },
+      {
+        "text": "Meanwhile"
+      },
+      {
+        "text": "At first"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "As a result shows the effect of the speaker.",
+    "acceptedAnswers": [],
+    "weight": 3,
+    "passage": "A youth group decided to start a neighbourhood recycling programme. They met several times to plan the campaign, research local recycling rules and design posters. During a workshop, members discussed how to encourage households to separate paper, plastic and glass. They also invited a guest speaker to explain how recycled materials can become new products. As a result, more residents began using the bins correctly and the organisers prepared a short report for the town council."
+  },
+  {
+    "id": "eng_b2_010",
+    "type": "situational_communication",
+    "level": "B2",
+    "skill": "communication",
+    "title": "Coordinator Email",
+    "instruction": "Choose the best response.",
+    "passageId": null,
+    "question": "A coordinator writes: \"Please confirm whether you can attend the training session.\" What is the best reply?",
+    "options": [
+      {
+        "text": "Yes, I can attend the training session."
+      },
+      {
+        "text": "I am not sure."
+      },
+      {
+        "text": "Maybe I will think about it."
+      },
+      {
+        "text": "I do not want to attend."
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "A clear confirmation is best.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_011",
+    "type": "multiple_choice_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Advanced Tense",
+    "instruction": "Choose the correct form.",
+    "passageId": null,
+    "question": "By the time she arrives, we ____ the plans.",
+    "options": [
+      {
+        "text": "will finish"
+      },
+      {
+        "text": "will have finished"
+      },
+      {
+        "text": "have finished"
+      },
+      {
+        "text": "finished"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Future perfect is used for an action completed before another future action.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_012",
+    "type": "vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Register",
+    "instruction": "Choose the most formal word.",
+    "passageId": null,
+    "question": "The committee issued a formal ____.",
+    "options": [
+      {
+        "text": "announcement"
+      },
+      {
+        "text": "talk"
+      },
+      {
+        "text": "chat"
+      },
+      {
+        "text": "message"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Announcement is formal and appropriate.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_013",
+    "type": "open_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Passive Voice",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "The report ____ by the team before the meeting.",
+    "acceptedAnswers": [
+      "was prepared"
+    ],
+    "explanation": "Was prepared is passive past form.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_014",
+    "type": "word_formation",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word ORGANISE.",
+    "passageId": null,
+    "question": "The campaign was ____.",
+    "acceptedAnswers": [
+      "organised"
+    ],
+    "explanation": "Organised is the adjective form.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_015",
+    "type": "sentence_transformation",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"despite\".",
+    "passageId": null,
+    "question": "Despite the rain, they continued the activity.",
+    "acceptedAnswers": [
+      "Despite the rain, they continued the activity."
+    ],
+    "sentence": "It rained, but they continued the activity.",
+    "keyword": "despite",
+    "explanation": "Same meaning with despite.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_016",
+    "type": "reading_comprehension",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Program Inference",
+    "instruction": "Choose the best inference.",
+    "passageId": "b2_environment_project",
+    "question": "What can you infer about the town council?",
+    "options": [
+      {
+        "text": "They welcomed the recycling report"
+      },
+      {
+        "text": "They rejected the plan immediately"
+      },
+      {
+        "text": "They were unaware of the project"
+      },
+      {
+        "text": "They disliked the youth group"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The town council likely welcomed the report.",
+    "acceptedAnswers": [],
+    "weight": 3,
+    "passage": "A youth group decided to start a neighbourhood recycling programme. They met several times to plan the campaign, research local recycling rules and design posters. During a workshop, members discussed how to encourage households to separate paper, plastic and glass. They also invited a guest speaker to explain how recycled materials can become new products. As a result, more residents began using the bins correctly and the organisers prepared a short report for the town council."
+  },
+  {
+    "id": "eng_b2_017",
+    "type": "multiple_choice_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Modal Deduction",
+    "instruction": "Choose the correct answer.",
+    "passageId": null,
+    "question": "He ____ have missed the bus because he is not here yet.",
+    "options": [
+      {
+        "text": "must"
+      },
+      {
+        "text": "might"
+      },
+      {
+        "text": "can"
+      },
+      {
+        "text": "should"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Must have expresses a strong deduction.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_018",
+    "type": "vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Word Choice",
+    "instruction": "Choose the best word.",
+    "passageId": null,
+    "question": "The project gained wide ____.",
+    "options": [
+      {
+        "text": "attention"
+      },
+      {
+        "text": "attentive"
+      },
+      {
+        "text": "attend"
+      },
+      {
+        "text": "attaining"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Attention is the correct noun.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_019",
+    "type": "open_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Conditionals",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "If they had known the rules, they ____ the task differently.",
+    "acceptedAnswers": [
+      "would have done"
+    ],
+    "explanation": "Would have done is third conditional.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_020",
+    "type": "word_formation",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word CREATE.",
+    "passageId": null,
+    "question": "The event was highly ____.",
+    "acceptedAnswers": [
+      "creative"
+    ],
+    "explanation": "Creative is the adjective form.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_021",
+    "type": "sentence_transformation",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"so\".",
+    "passageId": null,
+    "question": "The team worked hard so they could help.",
+    "acceptedAnswers": [
+      "The team worked hard so they could help."
+    ],
+    "sentence": "The team worked hard because they wanted to help.",
+    "keyword": "so",
+    "explanation": "Keeps the cause and effect.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_022",
+    "type": "situational_communication",
+    "level": "B2",
+    "skill": "communication",
+    "title": "Request Clarification",
+    "instruction": "Choose the best reply.",
+    "passageId": null,
+    "question": "A mentor says: \"Please tell me more about your availability.\" What should you answer?",
+    "options": [
+      {
+        "text": "I am available on weekdays after 5 pm."
+      },
+      {
+        "text": "I do not know when."
+      },
+      {
+        "text": "I might be free."
+      },
+      {
+        "text": "Yes."
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "A clear answer about availability is best.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_023",
+    "type": "multiple_choice_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Advanced Collocation",
+    "instruction": "Choose the correct phrase.",
+    "passageId": null,
+    "question": "They need to ____ the project timeline carefully.",
+    "options": [
+      {
+        "text": "review"
+      },
+      {
+        "text": "reviewed"
+      },
+      {
+        "text": "reviewing"
+      },
+      {
+        "text": "reviews"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Review the timeline is the correct phrase.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_024",
+    "type": "vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Register and Tone",
+    "instruction": "Choose the most appropriate expression.",
+    "passageId": null,
+    "question": "Please let me know if you require further information. What does this phrase show?",
+    "options": [
+      {
+        "text": "Politeness"
+      },
+      {
+        "text": "Anger"
+      },
+      {
+        "text": "Confusion"
+      },
+      {
+        "text": "Urgency"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The phrase expresses politeness.",
+    "acceptedAnswers": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_025",
+    "type": "open_cloze",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Relative Words",
+    "instruction": "Complete the sentence.",
+    "passageId": null,
+    "question": "The student ____ work was excellent received praise.",
+    "acceptedAnswers": [
+      "whose"
+    ],
+    "explanation": "Whose introduces possession.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_026",
+    "type": "word_formation",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Word Formation",
+    "instruction": "Use the correct form of the word SUSTAIN.",
+    "passageId": null,
+    "question": "The programme showed ____.",
+    "acceptedAnswers": [
+      "sustainability"
+    ],
+    "explanation": "Sustainability is the noun form.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_027",
+    "type": "sentence_transformation",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Same Meaning",
+    "instruction": "Rewrite with the word \"although\".",
+    "passageId": null,
+    "question": "Although they were tired, they finished the task.",
+    "acceptedAnswers": [
+      "Although they were tired, they finished the task."
+    ],
+    "sentence": "They were tired. They finished the task.",
+    "keyword": "although",
+    "explanation": "Keeps the same meaning.",
+    "options": [],
+    "weight": 3
+  },
+  {
+    "id": "eng_b2_028",
+    "type": "reading_comprehension",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Organization",
+    "instruction": "Choose the correct structure.",
+    "passageId": "b2_environment_project",
+    "question": "What is the main organizational feature of the passage?",
+    "options": [
+      {
+        "text": "It describes planning, action, and result."
+      },
+      {
+        "text": "It compares two unrelated projects."
+      },
+      {
+        "text": "It lists equipment only."
+      },
+      {
+        "text": "It explains a personal story."
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The passage is organized around planning, action, and result.",
+    "acceptedAnswers": [],
+    "weight": 3,
+    "passage": "A youth group decided to start a neighbourhood recycling programme. They met several times to plan the campaign, research local recycling rules and design posters. During a workshop, members discussed how to encourage households to separate paper, plastic and glass. They also invited a guest speaker to explain how recycled materials can become new products. As a result, more residents began using the bins correctly and the organisers prepared a short report for the town council."
+  },
+  {
+    "id": "eng_b2_029",
+    "type": "gapped_text",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Text Link",
+    "instruction": "Choose the sentence that improves cohesion.",
+    "passageId": "b2_environment_project",
+    "question": "The youth group planned a campaign and designed posters. ____, many households started recycling properly.",
+    "options": [
+      {
+        "text": "Therefore"
+      },
+      {
+        "text": "Meanwhile"
+      },
+      {
+        "text": "Afterwards"
+      },
+      {
+        "text": "Above all"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Therefore links the plan to the result.",
+    "acceptedAnswers": [],
+    "weight": 3,
+    "passage": "A youth group decided to start a neighbourhood recycling programme. They met several times to plan the campaign, research local recycling rules and design posters. During a workshop, members discussed how to encourage households to separate paper, plastic and glass. They also invited a guest speaker to explain how recycled materials can become new products. As a result, more residents began using the bins correctly and the organisers prepared a short report for the town council."
+  },
+  {
+    "id": "eng_b2_030",
+    "type": "situational_communication",
+    "level": "B2",
+    "skill": "communication",
+    "title": "Request Information",
+    "instruction": "Choose the best reply.",
+    "passageId": null,
+    "question": "A volunteer coordinator asks: \"What is your preferred role in the project?\" What is the best answer?",
+    "options": [
+      {
+        "text": "I prefer to support logistics and communication."
+      },
+      {
+        "text": "I do not care."
+      },
+      {
+        "text": "Maybe I can help later."
+      },
+      {
+        "text": "I only want to watch."
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "A clear, helpful answer is best.",
+    "acceptedAnswers": [],
+    "weight": 3
+  }
+]

@@ -1,0 +1,2873 @@
+{
+  "tables": {
+    "sql": "SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE' ORDER BY TABLE_SCHEMA, TABLE_NAME;",
+    "count": 17,
+    "rows": [
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectCategories"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopicMap"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams"
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users"
+      }
+    ]
+  },
+  "columns": {
+    "sql": "SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION, NUMERIC_SCALE, IS_NULLABLE, COLUMN_DEFAULT, ORDINAL_POSITION FROM INFORMATION_SCHEMA.COLUMNS ORDER BY TABLE_SCHEMA, TABLE_NAME, ORDINAL_POSITION;",
+    "count": 156,
+    "rows": [
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "ApplicationID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "UserID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "ApplicationStatus",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 30,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "('draft')",
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "MotivationLetterID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "ApplicationScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "Feedback",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "AppliedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "(sysdatetime())",
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "UpdatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "AnswerID",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 19,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "SessionID",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 19,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "QuestionID",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 150,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "DisplayOrder",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "QuestionType",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "Skill",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "CefrLevel",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 20,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "QuestionText",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "PassageText",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "OptionsJson",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "SelectedOptionIndex",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 11
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "TextAnswer",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 12
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "IsCorrect",
+        "DATA_TYPE": "bit",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 13
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "EarnedScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 14
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "MaximumScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 15
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "AnsweredAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 16
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 17
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "UpdatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 18
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "SessionID",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 19,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "UserID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "ExternalProjectID",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 150,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "ProjectTitle",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 500,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "ProjectSource",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 150,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "ProjectUrl",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 1000,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "ChallengeType",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 50,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "Status",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 30,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "StartedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "CompletedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 11
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 12
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "UpdatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 13
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries",
+        "COLUMN_NAME": "CountryID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries",
+        "COLUMN_NAME": "CountryName",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries",
+        "COLUMN_NAME": "CountryCode",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 10,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "(sysdatetime())",
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "Title",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 300,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "Link",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 500,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "Content",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "Location",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 200,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "AgeRange",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 50,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "StartDate",
+        "DATA_TYPE": "date",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "EndDate",
+        "DATA_TYPE": "date",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": "(getdate())",
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "ResultID",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 19,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "SessionID",
+        "DATA_TYPE": "bigint",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 19,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "EstimatedLevel",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 30,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "Percentage",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "CorrectAnswers",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "IncorrectAnswers",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "EarnedWeightedScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "MaximumWeightedScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "GrammarScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "VocabularyScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "ReadingScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 11
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "CommunicationScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 12
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "UseOfEnglishScore",
+        "DATA_TYPE": "decimal",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 5,
+        "NUMERIC_SCALE": 2,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 13
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "StrengthsJson",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 14
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "WeaknessesJson",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 15
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "AiFeedback",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 16
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "FeedbackSource",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 30,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 17
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "AiModel",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 150,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 18
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 19
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "UpdatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 20
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects",
+        "COLUMN_NAME": "title",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 300,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects",
+        "COLUMN_NAME": "link",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 500,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "LetterID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "Name",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "Gender",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 10,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "Interests",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 500,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "Category",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "ProjectDesc",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "GeneratedText",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": "(getdate())",
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "UserID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectCategories",
+        "COLUMN_NAME": "CategoryID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectCategories",
+        "COLUMN_NAME": "CategoryName",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "RequirementID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "RequirementType",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "RequirementText",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "MinimumAge",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "MaximumAge",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "LanguageLevel",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 20,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "IsRequired",
+        "DATA_TYPE": "bit",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "((1))",
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "(sysdatetime())",
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "Title",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 300,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "Link",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 500,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "CategoryID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": "(getdate())",
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "Description",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "CountryID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "SourceID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "City",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 200,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "StartDate",
+        "DATA_TYPE": "date",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "EndDate",
+        "DATA_TYPE": "date",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 11
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "Deadline",
+        "DATA_TYPE": "date",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 12
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "COLUMN_NAME": "SourceID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "COLUMN_NAME": "SourceName",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 150,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "COLUMN_NAME": "BaseUrl",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 500,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "COLUMN_NAME": "Description",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 1000,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "(sysdatetime())",
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopicMap",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopicMap",
+        "COLUMN_NAME": "TopicID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopicMap",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "(sysdatetime())",
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics",
+        "COLUMN_NAME": "TopicID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics",
+        "COLUMN_NAME": "TopicName",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 150,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics",
+        "COLUMN_NAME": "Description",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 1000,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": "(sysdatetime())",
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Id",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Name",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Gender",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 20,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Interests",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "MotivationLetter",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "EuropassCV",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "SelectedProjectTitle",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 255,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "SelectedProjectDescription",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Score",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Feedback",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Category",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 11
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "CreatedAt",
+        "DATA_TYPE": "datetime",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": "(getdate())",
+        "ORDINAL_POSITION": 12
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "LanguageLevel",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 10,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 13
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "CVLanguage",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 50,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 14
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "AIFeedback",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 15
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "UserID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 16
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "ProjectID",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 17
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "COLUMN_NAME": "name",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 128,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "COLUMN_NAME": "principal_id",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "COLUMN_NAME": "diagram_id",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "COLUMN_NAME": "version",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "COLUMN_NAME": "definition",
+        "DATA_TYPE": "varbinary",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "id",
+        "DATA_TYPE": "int",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": 10,
+        "NUMERIC_SCALE": 0,
+        "IS_NULLABLE": "NO",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "name",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 100,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "gender",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 20,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 3
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "interests",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 4
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "motivation_letter",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 5
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "europass_cv",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 6
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "selected_project_title",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 255,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 7
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "selected_project_description",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": -1,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 8
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "created_at",
+        "DATA_TYPE": "datetime",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": "(getdate())",
+        "ORDINAL_POSITION": 9
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "email",
+        "DATA_TYPE": "nvarchar",
+        "CHARACTER_MAXIMUM_LENGTH": 320,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 10
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "updated_at",
+        "DATA_TYPE": "datetime2",
+        "CHARACTER_MAXIMUM_LENGTH": null,
+        "NUMERIC_PRECISION": null,
+        "NUMERIC_SCALE": null,
+        "IS_NULLABLE": "YES",
+        "COLUMN_DEFAULT": null,
+        "ORDINAL_POSITION": 11
+      }
+    ]
+  },
+  "primary_keys": {
+    "sql": "SELECT tc.TABLE_SCHEMA, tc.TABLE_NAME, kc.COLUMN_NAME, kc.ORDINAL_POSITION FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS tc JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE kc ON tc.CONSTRAINT_NAME = kc.CONSTRAINT_NAME AND tc.TABLE_SCHEMA = kc.TABLE_SCHEMA AND tc.TABLE_NAME = kc.TABLE_NAME WHERE tc.CONSTRAINT_TYPE = 'PRIMARY KEY' ORDER BY tc.TABLE_SCHEMA, tc.TABLE_NAME, kc.ORDINAL_POSITION;",
+    "count": 18,
+    "rows": [
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Applications",
+        "COLUMN_NAME": "ApplicationID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentAnswers",
+        "COLUMN_NAME": "AnswerID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "AssessmentSessions",
+        "COLUMN_NAME": "SessionID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries",
+        "COLUMN_NAME": "CountryID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "DetailedErasmusProjects",
+        "COLUMN_NAME": "ProjectID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "EnglishPlacementResults",
+        "COLUMN_NAME": "ResultID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects",
+        "COLUMN_NAME": "id",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "MotivationLetters",
+        "COLUMN_NAME": "LetterID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectCategories",
+        "COLUMN_NAME": "CategoryID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectRequirements",
+        "COLUMN_NAME": "RequirementID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Projects",
+        "COLUMN_NAME": "ProjectID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "COLUMN_NAME": "SourceID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopicMap",
+        "COLUMN_NAME": "ProjectID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopicMap",
+        "COLUMN_NAME": "TopicID",
+        "ORDINAL_POSITION": 2
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics",
+        "COLUMN_NAME": "TopicID",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "SimulationResults",
+        "COLUMN_NAME": "Id",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "COLUMN_NAME": "diagram_id",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Users",
+        "COLUMN_NAME": "id",
+        "ORDINAL_POSITION": 1
+      }
+    ]
+  },
+  "foreign_keys": {
+    "sql": "SELECT fk.name AS foreign_key_name, OBJECT_SCHEMA_NAME(fk.parent_object_id) AS child_schema, OBJECT_NAME(fk.parent_object_id) AS child_table, COL_NAME(fkc.parent_object_id, fkc.parent_column_id) AS child_column, OBJECT_SCHEMA_NAME(fk.referenced_object_id) AS parent_schema, OBJECT_NAME(fk.referenced_object_id) AS parent_table, COL_NAME(fkc.referenced_object_id, fkc.referenced_column_id) AS parent_column FROM sys.foreign_keys fk INNER JOIN sys.foreign_key_columns fkc ON fk.object_id = fkc.constraint_object_id ORDER BY child_schema, child_table, foreign_key_name, fkc.constraint_column_id;",
+    "count": 21,
+    "rows": [
+      {
+        "foreign_key_name": "FK_Applications_MotivationLetters",
+        "child_schema": "dbo",
+        "child_table": "Applications",
+        "child_column": "MotivationLetterID",
+        "parent_schema": "dbo",
+        "parent_table": "MotivationLetters",
+        "parent_column": "LetterID"
+      },
+      {
+        "foreign_key_name": "FK_Applications_Projects",
+        "child_schema": "dbo",
+        "child_table": "Applications",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_Applications_Users",
+        "child_schema": "dbo",
+        "child_table": "Applications",
+        "child_column": "UserID",
+        "parent_schema": "dbo",
+        "parent_table": "Users",
+        "parent_column": "id"
+      },
+      {
+        "foreign_key_name": "FK_AssessmentAnswers_AssessmentSessions",
+        "child_schema": "dbo",
+        "child_table": "AssessmentAnswers",
+        "child_column": "SessionID",
+        "parent_schema": "dbo",
+        "parent_table": "AssessmentSessions",
+        "parent_column": "SessionID"
+      },
+      {
+        "foreign_key_name": "FK_AssessmentAnswers_Sessions",
+        "child_schema": "dbo",
+        "child_table": "AssessmentAnswers",
+        "child_column": "SessionID",
+        "parent_schema": "dbo",
+        "parent_table": "AssessmentSessions",
+        "parent_column": "SessionID"
+      },
+      {
+        "foreign_key_name": "FK_AssessmentSessions_Projects",
+        "child_schema": "dbo",
+        "child_table": "AssessmentSessions",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_AssessmentSessions_Users",
+        "child_schema": "dbo",
+        "child_table": "AssessmentSessions",
+        "child_column": "UserID",
+        "parent_schema": "dbo",
+        "parent_table": "Users",
+        "parent_column": "id"
+      },
+      {
+        "foreign_key_name": "FK_DetailedErasmusProjects_Projects",
+        "child_schema": "dbo",
+        "child_table": "DetailedErasmusProjects",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_EnglishPlacementResults_AssessmentSessions",
+        "child_schema": "dbo",
+        "child_table": "EnglishPlacementResults",
+        "child_column": "SessionID",
+        "parent_schema": "dbo",
+        "parent_table": "AssessmentSessions",
+        "parent_column": "SessionID"
+      },
+      {
+        "foreign_key_name": "FK_EnglishPlacementResults_Sessions",
+        "child_schema": "dbo",
+        "child_table": "EnglishPlacementResults",
+        "child_column": "SessionID",
+        "parent_schema": "dbo",
+        "parent_table": "AssessmentSessions",
+        "parent_column": "SessionID"
+      },
+      {
+        "foreign_key_name": "FK_ErasmusProjects_Projects",
+        "child_schema": "dbo",
+        "child_table": "ErasmusProjects",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_MotivationLetters_Projects",
+        "child_schema": "dbo",
+        "child_table": "MotivationLetters",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_MotivationLetters_Users",
+        "child_schema": "dbo",
+        "child_table": "MotivationLetters",
+        "child_column": "UserID",
+        "parent_schema": "dbo",
+        "parent_table": "Users",
+        "parent_column": "id"
+      },
+      {
+        "foreign_key_name": "FK_ProjectRequirements_Projects",
+        "child_schema": "dbo",
+        "child_table": "ProjectRequirements",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK__Projects__Catego__4F7CD00D",
+        "child_schema": "dbo",
+        "child_table": "Projects",
+        "child_column": "CategoryID",
+        "parent_schema": "dbo",
+        "parent_table": "ProjectCategories",
+        "parent_column": "CategoryID"
+      },
+      {
+        "foreign_key_name": "FK_Projects_Countries",
+        "child_schema": "dbo",
+        "child_table": "Projects",
+        "child_column": "CountryID",
+        "parent_schema": "dbo",
+        "parent_table": "Countries",
+        "parent_column": "CountryID"
+      },
+      {
+        "foreign_key_name": "FK_Projects_ProjectSources",
+        "child_schema": "dbo",
+        "child_table": "Projects",
+        "child_column": "SourceID",
+        "parent_schema": "dbo",
+        "parent_table": "ProjectSources",
+        "parent_column": "SourceID"
+      },
+      {
+        "foreign_key_name": "FK_ProjectTopicMap_Projects",
+        "child_schema": "dbo",
+        "child_table": "ProjectTopicMap",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_ProjectTopicMap_ProjectTopics",
+        "child_schema": "dbo",
+        "child_table": "ProjectTopicMap",
+        "child_column": "TopicID",
+        "parent_schema": "dbo",
+        "parent_table": "ProjectTopics",
+        "parent_column": "TopicID"
+      },
+      {
+        "foreign_key_name": "FK_SimulationResults_Projects",
+        "child_schema": "dbo",
+        "child_table": "SimulationResults",
+        "child_column": "ProjectID",
+        "parent_schema": "dbo",
+        "parent_table": "Projects",
+        "parent_column": "ProjectID"
+      },
+      {
+        "foreign_key_name": "FK_SimulationResults_Users",
+        "child_schema": "dbo",
+        "child_table": "SimulationResults",
+        "child_column": "UserID",
+        "parent_schema": "dbo",
+        "parent_table": "Users",
+        "parent_column": "id"
+      }
+    ]
+  },
+  "identity_columns": {
+    "sql": "SELECT OBJECT_SCHEMA_NAME(ic.object_id) AS table_schema, OBJECT_NAME(ic.object_id) AS table_name, COL_NAME(ic.object_id, ic.column_id) AS column_name, CAST(ic.seed_value AS NVARCHAR(100)) AS seed_value, CAST(ic.increment_value AS NVARCHAR(100)) AS increment_value FROM sys.identity_columns ic ORDER BY OBJECT_SCHEMA_NAME(ic.object_id), OBJECT_NAME(ic.object_id), COL_NAME(ic.object_id, ic.column_id);",
+    "count": 21,
+    "rows": [
+      {
+        "table_schema": "dbo",
+        "table_name": "Applications",
+        "column_name": "ApplicationID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentAnswers",
+        "column_name": "AnswerID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentSessions",
+        "column_name": "SessionID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Countries",
+        "column_name": "CountryID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "DetailedErasmusProjects",
+        "column_name": "ProjectID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "EnglishPlacementResults",
+        "column_name": "ResultID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ErasmusProjects",
+        "column_name": "id",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "MotivationLetters",
+        "column_name": "LetterID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectCategories",
+        "column_name": "CategoryID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectRequirements",
+        "column_name": "RequirementID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Projects",
+        "column_name": "ProjectID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectSources",
+        "column_name": "SourceID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopics",
+        "column_name": "TopicID",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "SimulationResults",
+        "column_name": "Id",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "sysdiagrams",
+        "column_name": "diagram_id",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Users",
+        "column_name": "id",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "sys",
+        "table_name": "queue_messages_1977058079",
+        "column_name": "queuing_order",
+        "seed_value": "0",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "sys",
+        "table_name": "queue_messages_2009058193",
+        "column_name": "queuing_order",
+        "seed_value": "0",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "sys",
+        "table_name": "queue_messages_2041058307",
+        "column_name": "queuing_order",
+        "seed_value": "0",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "sys",
+        "table_name": "sqlagent_job_history",
+        "column_name": "instance_id",
+        "seed_value": "1",
+        "increment_value": "1"
+      },
+      {
+        "table_schema": "sys",
+        "table_name": "sqlagent_jobsteps_logs",
+        "column_name": "log_id",
+        "seed_value": "1",
+        "increment_value": "1"
+      }
+    ]
+  },
+  "indexes": {
+    "sql": "SELECT OBJECT_SCHEMA_NAME(i.object_id) AS table_schema, OBJECT_NAME(i.object_id) AS table_name, i.name AS index_name, i.is_unique, i.is_primary_key, i.type_desc FROM sys.indexes i WHERE i.object_id IN (SELECT object_id FROM sys.tables) ORDER BY OBJECT_SCHEMA_NAME(i.object_id), OBJECT_NAME(i.object_id), i.name;",
+    "count": 26,
+    "rows": [
+      {
+        "table_schema": "dbo",
+        "table_name": "Applications",
+        "index_name": "PK_Applications",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentAnswers",
+        "index_name": "IX_AssessmentAnswers_SessionQuestion",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentAnswers",
+        "index_name": "PK__Assessme__D4825024A9B8B840",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentSessions",
+        "index_name": "PK__Assessme__C9F49270DB7DC7F0",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Countries",
+        "index_name": "PK_Countries",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Countries",
+        "index_name": "UQ_Countries_CountryName",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "DetailedErasmusProjects",
+        "index_name": "PK__Detailed__761ABED0C0E26C1E",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "EnglishPlacementResults",
+        "index_name": "IX_EnglishPlacementResults_Session",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "EnglishPlacementResults",
+        "index_name": "PK__EnglishP__976902285064BBF9",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ErasmusProjects",
+        "index_name": "PK__ErasmusP__3213E83F66ECBAD9",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ErasmusProjects",
+        "index_name": "UQ_ErasmusProjects_Title",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "MotivationLetters",
+        "index_name": "PK__Motivati__AE46E811893DA1DF",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectCategories",
+        "index_name": "PK__ProjectC__19093A2B7D036F03",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectCategories",
+        "index_name": "UQ__ProjectC__8517B2E0A9E158B0",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectRequirements",
+        "index_name": "PK_ProjectRequirements",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Projects",
+        "index_name": "PK__Projects__761ABED07C5AD640",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectSources",
+        "index_name": "PK_ProjectSources",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectSources",
+        "index_name": "UQ_ProjectSources_SourceName",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopicMap",
+        "index_name": "PK_ProjectTopicMap",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopics",
+        "index_name": "PK_ProjectTopics",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopics",
+        "index_name": "UQ_ProjectTopics_TopicName",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "SimulationResults",
+        "index_name": "PK__Simulati__3214EC0781CF46A7",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "sysdiagrams",
+        "index_name": "PK__sysdiagr__C2B05B61024F725B",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "sysdiagrams",
+        "index_name": "UK_principal_name",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Users",
+        "index_name": "IX_Users_Email_Unique",
+        "is_unique": true,
+        "is_primary_key": false,
+        "type_desc": "NONCLUSTERED"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Users",
+        "index_name": "PK__Users__3213E83FAF632BA0",
+        "is_unique": true,
+        "is_primary_key": true,
+        "type_desc": "CLUSTERED"
+      }
+    ]
+  },
+  "unique_constraints": {
+    "sql": "SELECT tc.TABLE_SCHEMA, tc.TABLE_NAME, tc.CONSTRAINT_NAME, kc.COLUMN_NAME, kc.ORDINAL_POSITION FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS tc JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE kc ON tc.CONSTRAINT_NAME = kc.CONSTRAINT_NAME AND tc.TABLE_SCHEMA = kc.TABLE_SCHEMA AND tc.TABLE_NAME = kc.TABLE_NAME WHERE tc.CONSTRAINT_TYPE='UNIQUE' ORDER BY tc.TABLE_SCHEMA, tc.TABLE_NAME, tc.CONSTRAINT_NAME, kc.ORDINAL_POSITION;",
+    "count": 7,
+    "rows": [
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "Countries",
+        "CONSTRAINT_NAME": "UQ_Countries_CountryName",
+        "COLUMN_NAME": "CountryName",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ErasmusProjects",
+        "CONSTRAINT_NAME": "UQ_ErasmusProjects_Title",
+        "COLUMN_NAME": "title",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectCategories",
+        "CONSTRAINT_NAME": "UQ__ProjectC__8517B2E0A9E158B0",
+        "COLUMN_NAME": "CategoryName",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectSources",
+        "CONSTRAINT_NAME": "UQ_ProjectSources_SourceName",
+        "COLUMN_NAME": "SourceName",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "ProjectTopics",
+        "CONSTRAINT_NAME": "UQ_ProjectTopics_TopicName",
+        "COLUMN_NAME": "TopicName",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "CONSTRAINT_NAME": "UK_principal_name",
+        "COLUMN_NAME": "principal_id",
+        "ORDINAL_POSITION": 1
+      },
+      {
+        "TABLE_SCHEMA": "dbo",
+        "TABLE_NAME": "sysdiagrams",
+        "CONSTRAINT_NAME": "UK_principal_name",
+        "COLUMN_NAME": "name",
+        "ORDINAL_POSITION": 2
+      }
+    ]
+  },
+  "default_constraints": {
+    "sql": "SELECT OBJECT_SCHEMA_NAME(dc.parent_object_id) AS table_schema, OBJECT_NAME(dc.parent_object_id) AS table_name, c.name AS column_name, dc.name AS default_constraint_name, CAST(dc.definition AS NVARCHAR(MAX)) AS definition FROM sys.default_constraints dc INNER JOIN sys.columns c ON dc.parent_object_id = c.object_id AND dc.parent_column_id = c.column_id ORDER BY OBJECT_SCHEMA_NAME(dc.parent_object_id), OBJECT_NAME(dc.parent_object_id), c.name;",
+    "count": 13,
+    "rows": [
+      {
+        "table_schema": "dbo",
+        "table_name": "Applications",
+        "column_name": "ApplicationStatus",
+        "default_constraint_name": "DF_Applications_Status",
+        "definition": "('draft')"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Applications",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF_Applications_CreatedAt",
+        "definition": "(sysdatetime())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Countries",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF_Countries_CreatedAt",
+        "definition": "(sysdatetime())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "DetailedErasmusProjects",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF__DetailedE__Creat__5CD6CB2B",
+        "definition": "(getdate())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "MotivationLetters",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF__Motivatio__Creat__60A75C0F",
+        "definition": "(getdate())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectRequirements",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF_ProjectRequirements_CreatedAt",
+        "definition": "(sysdatetime())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectRequirements",
+        "column_name": "IsRequired",
+        "default_constraint_name": "DF_ProjectRequirements_IsRequired",
+        "definition": "((1))"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Projects",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF__Projects__Create__5070F446",
+        "definition": "(getdate())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectSources",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF_ProjectSources_CreatedAt",
+        "definition": "(sysdatetime())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopicMap",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF_ProjectTopicMap_CreatedAt",
+        "definition": "(sysdatetime())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopics",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF_ProjectTopics_CreatedAt",
+        "definition": "(sysdatetime())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "SimulationResults",
+        "column_name": "CreatedAt",
+        "default_constraint_name": "DF__Simulatio__Creat__02FC7413",
+        "definition": "(getdate())"
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Users",
+        "column_name": "created_at",
+        "default_constraint_name": "DF__Users__created_a__6FE99F9F",
+        "definition": "(getdate())"
+      }
+    ]
+  },
+  "table_counts": {
+    "sql": "SELECT OBJECT_SCHEMA_NAME(t.object_id) AS table_schema, t.name AS table_name, SUM(p.rows) AS row_count FROM sys.tables t JOIN sys.partitions p ON t.object_id = p.object_id AND p.index_id IN (0,1) GROUP BY OBJECT_SCHEMA_NAME(t.object_id), t.name ORDER BY OBJECT_SCHEMA_NAME(t.object_id), t.name;",
+    "count": 17,
+    "rows": [
+      {
+        "table_schema": "dbo",
+        "table_name": "Applications",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentAnswers",
+        "row_count": 4
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "AssessmentSessions",
+        "row_count": 10
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Countries",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "DetailedErasmusProjects",
+        "row_count": 150
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "EnglishPlacementResults",
+        "row_count": 4
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ErasmusProjects",
+        "row_count": 225
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "MotivationLetters",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectCategories",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectRequirements",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Projects",
+        "row_count": 160
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectSources",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopicMap",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "ProjectTopics",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "SimulationResults",
+        "row_count": 0
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "sysdiagrams",
+        "row_count": 1
+      },
+      {
+        "table_schema": "dbo",
+        "table_name": "Users",
+        "row_count": 11
+      }
+    ]
+  }
+}

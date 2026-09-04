@@ -1,0 +1,81 @@
+/* Genel reset ve font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #f2f6ff;
+  color: #333;
+}
+
+/* Kod blokları */
+code {
+  font-family: 'Courier New', monospace;
+}
+
+/* Başlıklar */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #2d3a64;
+}
+
+/* Ana buton stili */
+button {
+  background-color: #0047ab;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #003580;
+}
+
+/* Giriş kutuları */
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Kart görünümü */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Navigasyon */
+.navbar {
+  background-color: #003580;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Linkler */
+a {
+  color: #0047ab;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

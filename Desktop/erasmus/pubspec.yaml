@@ -1,0 +1,42 @@
+name: erasmus_simulasyon
+description: Erasmus+ başvuru süreci için oyunlaştırılmış bir mobil uygulama
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5 # Sizin belirttiğiniz sürüm
+  url_launcher: ^6.1.10
+  flutter_dotenv: ^5.0.2 # Sizin belirttiğiniz sürüm
+  google_fonts: ^4.0.4
+  path_provider: ^2.1.2
+  logger: ^2.0.2 # Sizin belirttiğiniz sürüm
+  webview_flutter: ^4.2.2
+  webview_flutter_android: ^4.7.0
+  webview_flutter_wkwebview: ^3.22.0
+  provider: ^6.1.2
+  flame: ^1.8.1 # YENİ EKLENECEK - Durum yönetimi için
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section below with examples.
+  assets:
+    - assets/volunteer_projects.json
+    - assets/training_calendar.json
+    - assets/erasmus_live_projects.json
+    - assets/erasmusgram_projects.json
+    - assets/data/english_placement_question_bank.json
+    - assets/images/
+    - .env

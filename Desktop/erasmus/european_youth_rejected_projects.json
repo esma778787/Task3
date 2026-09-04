@@ -1,0 +1,181 @@
+{
+  "rejectionCount": 35,
+  "rejections": [
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50434_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:21:20.387070Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50460_en",
+      "reason": "request_error: HTTPSConnectionPool(host='youth.europa.eu', port=443): Max retries exceeded with url: /solidarity/opportunity/50460_en (Caused by ResponseError('too many 429 error responses'))",
+      "scrapedAt": "2026-06-13T18:21:33.477489Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50482_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:21:34.979822Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50539_en",
+      "reason": "request_error: HTTPSConnectionPool(host='youth.europa.eu', port=443): Max retries exceeded with url: /solidarity/opportunity/50539_en (Caused by ResponseError('too many 429 error responses'))",
+      "scrapedAt": "2026-06-13T18:21:48.675750Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50600_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:21:58.928025Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50602_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:22:00.462134Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50729_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:22:10.345779Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50756_en",
+      "reason": "request_error: HTTPSConnectionPool(host='youth.europa.eu', port=443): Max retries exceeded with url: /solidarity/opportunity/50756_en (Caused by ResponseError('too many 429 error responses'))",
+      "scrapedAt": "2026-06-13T18:22:42.842208Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50760_en",
+      "reason": "request_error: HTTPSConnectionPool(host='youth.europa.eu', port=443): Max retries exceeded with url: /solidarity/opportunity/50760_en (Caused by ResponseError('too many 429 error responses'))",
+      "scrapedAt": "2026-06-13T18:22:57.418143Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50780_en",
+      "reason": "short_description",
+      "scrapedAt": "2026-06-13T18:23:06.466615Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50862_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:23:14.316833Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50909_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:23:21.766149Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/50912_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:23:23.324903Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/51178_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:24:01.291742Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/51238_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:24:06.230108Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/51360_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:24:40.246698Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/51936_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:27:19.390921Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/51987_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:27:47.501588Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52117_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:28:29.186725Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52146_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:28:44.768357Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52242_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:29:46.253583Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52245_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:29:47.913666Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52281_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:30:11.166897Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52283_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:30:12.623949Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52284_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:30:13.357057Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52312_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:30:32.612335Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52333_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:30:42.386382Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52339_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:30:45.948643Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52359_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:31:00.204669Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52427_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:31:41.910092Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52457_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:32:00.920793Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52463_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:32:05.828948Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52480_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:32:17.262821Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52481_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:32:17.987448Z"
+    },
+    {
+      "url": "https://youth.europa.eu/solidarity/opportunity/52554_en",
+      "reason": "encoding_corruption",
+      "scrapedAt": "2026-06-13T18:33:05.754302Z"
+    }
+  ],
+  "savedAt": "2026-06-13T18:33:10.857448Z"
+}
